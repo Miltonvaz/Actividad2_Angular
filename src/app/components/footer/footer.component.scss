@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    width: 100%;
+    padding: 2rem 8%;
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    height: 60px;
+    margin-left: 10px;
+}
+
+.esrb-logo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+strong {
+    font-size: 24px;
+    margin-left: 10px;
+    color: white;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-size: 18px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    background-color: rgb(94, 105, 105);
+}
+
+.social-icon:hover i {
+    transform: scale(1.1);
+}
+.raya {
+    background-color: #D9D9D9;
+    height:  120px;
+    width: 2px;
+}
