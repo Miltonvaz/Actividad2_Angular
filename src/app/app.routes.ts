@@ -1,7 +1,7 @@
 
 import { Routes } from '@angular/router';
-import { MainComponent } from './module/main/main.component';
-import { IncioComponent } from './module/incio/incio.component';
+import { MainComponent } from './components/main/main.component';
+import { IncioComponent } from './components/incio/incio.component';
 
 export const routes: Routes = [
     { path: 'curiosidades', component: MainComponent },

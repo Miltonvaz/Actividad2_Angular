@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { IncioComponent } from './module/incio/incio.component';
+import { IncioComponent } from './components/incio/incio.component';
 
 @Component({
   selector: 'app-root',
