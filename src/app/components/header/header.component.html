@@ -1,22 +1,28 @@
 <header class="header-class">
     <nav>
-        <img src="logo.png" alt="Logo" class="logo">
-        <ul style="flex: 1; display: flex; align-items: center;">
-            <li class="search" style="flex: 1;">
-                <app-search-bar></app-search-bar>
-            </li>
-            <li class="menu">
-                <button class="Inicio">Iniciar Sesión</button>
-            </li>
-            <li class="menu">
-                <button class="registro">Regístrate</button>
-            </li>
-            <li class="menu">
-                <burger-menu></burger-menu>
-            </li>
-            <li>
-                <img src="download.png" alt="Download" class="download-icon">
-            </li>
-        </ul>
+      <img src="logo.png" alt="Logo" class="logo">
+      
+      <ul style="flex: 1; display: flex; align-items: center;">
+        <li class="menu">
+          <burger-menu 
+              [options]="['Home','Curiosidades']" 
+              (optionSelected)="onOptionSelected($event)">
+          </burger-menu>
+      </li> 
+        <li class="search" style="flex: 1;">
+          <app-search-bar></app-search-bar>
+        </li>
+        <li class="menu">
+          <button class="Inicio">Iniciar Sesión</button>
+        </li>
+        <li class="menu">
+          <button class="registro">Regístrate</button>
+        </li>
+      
+        <li>
+          <img src="download.png" alt="Download" class="download-icon">
+        </li>
+      </ul>
     </nav>
-</header>
+  </header>
+  

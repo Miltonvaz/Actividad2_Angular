@@ -1,0 +1,75 @@
+.raya-horizontal {
+    background-color: #000000;
+    width: 95%;
+    height: 3px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.content {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-left: 30px;
+}
+
+.descrp {
+    font-size: 23px;
+    width: 100%;    
+    margin-left: 300px; 
+    padding: 20px;
+}
+
+.titulo {
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.titulo1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.titulo2 {
+    font-size: 50px;
+    margin-left: 180px;
+}
+
+.img_juego {
+    width: 40%;
+    margin-left: 300px; 
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.foto {
+    border-radius: 20px;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.ediciones {
+    display: flex; 
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.img_juego2,
+.img_juego3,
+.img_juego4,
+.img_juego5 {
+    text-align: center; 
+    margin: 10px; 
+    
+}
+
+.carrusel {
+    margin-top: 70px; /* Aumentar el espacio superior */
+    margin-bottom: 120px; /* Aumentar el espacio inferior */
+    margin-left: 50px;
+    margin-right: 50px; /* Aumentar el espacio lateral */
+}

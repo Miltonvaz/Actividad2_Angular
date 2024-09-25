@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+.raya-horizontal {
+    background-color: #000000;
+    width: 95%;
+    height: 3px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fifa96, .fifa2000, .fifa2016 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.fifa2000 {
+    flex-direction: row-reverse;
+    transform: translateX(100%);
+}
+
+.texto {
+    flex: 2;
+    padding: 20px;
+}
+
+.texto h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.texto p {
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #666;
+}
+
+.imagen1, .imagen2, .imagen3 {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen1 img, .imagen2 img, .imagen3 img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-out;
+}
+
+.imagen1 img:hover, .imagen2 img:hover, .imagen3 img:hover {
+    transform: scale(1.05);
+}
+
+.show {
+    transform: translateX(0);
+    opacity: 1;
+}
